@@ -451,3 +451,6 @@ members = [
     "sdk/workspacesweb",
     "sdk/xray"
 ]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
