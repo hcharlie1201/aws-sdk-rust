@@ -2,7 +2,7 @@
 
 /// <p>The specification for the tool.</p>
 #[non_exhaustive]
-#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug)]
+#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Serialize)]
 pub struct ToolSpecification {
     /// <p>The name for the tool.</p>
     pub name: ::std::string::String,
