@@ -14,6 +14,7 @@
     ::std::fmt::Debug,
     ::std::hash::Hash,
     ::serde::Serialize,
+    ::serde::Deserialize,
 )]
 pub struct UnknownVariantValue(pub(crate) ::std::string::String);
 impl UnknownVariantValue {

@@ -2,7 +2,7 @@
 
 /// <p>A message input, or returned from, a call to <a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html">Converse</a> or <a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_ConverseStream.html">ConverseStream</a>.</p>
 #[non_exhaustive]
-#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Serialize)]
+#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Deserialize, ::serde::Serialize)]
 pub struct Message {
     /// <p>The role that the message plays in the message.</p>
     pub role: crate::types::ConversationRole,

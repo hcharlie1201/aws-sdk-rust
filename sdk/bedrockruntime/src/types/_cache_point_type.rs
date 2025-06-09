@@ -46,6 +46,7 @@
     ::std::fmt::Debug,
     ::std::hash::Hash,
     ::serde::Serialize,
+    ::serde::Deserialize,
 )]
 pub enum CachePointType {
     #[allow(missing_docs)] // documentation missing in model

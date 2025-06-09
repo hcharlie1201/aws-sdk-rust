@@ -2,7 +2,7 @@
 
 /// <p>A video block.</p>
 #[non_exhaustive]
-#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug)]
+#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Serialize, ::serde::Deserialize)]
 pub struct VideoBlock {
     /// <p>The block's format.</p>
     pub format: crate::types::VideoFormat,

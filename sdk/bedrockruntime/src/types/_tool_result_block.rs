@@ -2,7 +2,7 @@
 
 /// <p>A tool result block that contains the results for a tool request that the model previously made.</p>
 #[non_exhaustive]
-#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug)]
+#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Deserialize, ::serde::Serialize)]
 pub struct ToolResultBlock {
     /// <p>The ID of the tool request that this is the result for.</p>
     pub tool_use_id: ::std::string::String,

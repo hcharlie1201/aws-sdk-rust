@@ -2,7 +2,7 @@
 
 /// <p>The model must request at least one tool (no text is generated). For example, <code>{"any" : {}}</code>.</p>
 #[non_exhaustive]
-#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug)]
+#[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Serialize)]
 pub struct AnyToolChoice {}
 impl AnyToolChoice {
     /// Creates a new builder-style object to manufacture [`AnyToolChoice`](crate::types::AnyToolChoice).
