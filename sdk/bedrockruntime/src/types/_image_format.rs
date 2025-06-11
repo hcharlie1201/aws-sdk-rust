@@ -45,6 +45,7 @@
     ::serde::Deserialize,
     ::serde::Serialize
 )]
+#[serde(rename_all = "camelCase")]
 pub enum ImageFormat {
     #[allow(missing_docs)] // documentation missing in model
     Gif,

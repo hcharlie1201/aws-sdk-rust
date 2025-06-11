@@ -16,6 +16,7 @@
     ::serde::Serialize,
     ::serde::Deserialize,
 )]
+#[serde(rename_all = "camelCase")]
 pub struct UnknownVariantValue(pub(crate) ::std::string::String);
 impl UnknownVariantValue {
     pub(crate) fn as_str(&self) -> &str {

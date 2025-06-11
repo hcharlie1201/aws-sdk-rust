@@ -43,6 +43,7 @@
     ::serde::Deserialize,
     ::serde::Serialize,
 )]
+#[serde(rename_all = "camelCase")]
 pub enum GuardrailConverseImageFormat {
     #[allow(missing_docs)] // documentation missing in model
     Jpeg,

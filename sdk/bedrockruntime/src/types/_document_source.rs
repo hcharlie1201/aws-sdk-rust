@@ -3,6 +3,7 @@
 /// <p>Contains the content of a document.</p>
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug,  ::serde::Deserialize, ::serde::Serialize)]
+#[serde(rename_all = "camelCase")]
 pub enum DocumentSource {
     /// <p>The raw bytes for the document. If you use an Amazon Web Services SDK, you don't need to encode the bytes in base64.</p>
     Bytes(::aws_smithy_types::Blob),

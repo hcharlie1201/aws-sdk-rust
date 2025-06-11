@@ -3,6 +3,7 @@
 /// <p>The image source (image bytes) of the guardrail converse image source.</p>
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::serde::Serialize, ::serde::Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub enum GuardrailConverseImageSource {
     /// <p>The raw image bytes for the image.</p>
     Bytes(::aws_smithy_types::Blob),

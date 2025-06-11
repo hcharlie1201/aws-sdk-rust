@@ -3,6 +3,7 @@
 /// <p>Defines a section of content to be cached for reuse in subsequent API calls.</p>
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Serialize, ::serde::Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct CachePointBlock {
     /// <p>Specifies the type of cache point within the CachePointBlock.</p>
     pub r#type: crate::types::CachePointType,

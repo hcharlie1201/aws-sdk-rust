@@ -3,6 +3,7 @@
 /// <p>An image block that contains images that you want to assess with a guardrail.</p>
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::serde::Serialize,  ::serde::Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct GuardrailConverseImageBlock {
     /// <p>The format details for the image type of the guardrail converse image block.</p>
     pub format: crate::types::GuardrailConverseImageFormat,

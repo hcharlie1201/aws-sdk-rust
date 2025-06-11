@@ -48,6 +48,7 @@
     ::serde::Serialize,
     ::serde::Deserialize,
 )]
+#[serde(rename_all = "camelCase")]
 pub enum CachePointType {
     #[allow(missing_docs)] // documentation missing in model
     Default,
