@@ -52,6 +52,7 @@
     ::std::hash::Hash,
     ::serde::Deserialize,
 )]
+#[serde(rename_all = "camelCase")]
 pub enum StopReason {
     #[allow(missing_docs)] // documentation missing in model
     ContentFiltered,

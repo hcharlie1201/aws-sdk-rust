@@ -3,6 +3,7 @@
 /// <p>Metrics for a call to <a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html">Converse</a>.</p>
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct ConverseMetrics {
     /// <p>The latency of the call to <code>Converse</code>, in milliseconds.</p>
     pub latency_ms: i64,

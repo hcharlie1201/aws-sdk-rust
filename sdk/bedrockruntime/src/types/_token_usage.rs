@@ -3,6 +3,7 @@
 /// <p>The tokens used in a message API inference call.</p>
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct TokenUsage {
     /// <p>The number of tokens sent in the request to the model.</p>
     pub input_tokens: i32,
