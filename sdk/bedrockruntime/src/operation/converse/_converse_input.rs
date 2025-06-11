@@ -2,6 +2,7 @@
 #[allow(missing_docs)] // documentation missing in model
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::serde::Serialize)]
+#[serde(rename_all = "camelCase")]
 pub struct ConverseInput {
     /// <p>Specifies the model or throughput with which to run inference, or the prompt resource to use in inference. The value depends on the resource that you use:</p>
     /// <ul>

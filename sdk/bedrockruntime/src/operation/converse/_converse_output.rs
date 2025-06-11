@@ -2,6 +2,7 @@
 #[allow(missing_docs)] // documentation missing in model
 #[non_exhaustive]
 #[derive(::std::clone::Clone, ::std::cmp::PartialEq, ::std::fmt::Debug, ::serde::Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct ConverseOutput {
     /// <p>The result from the call to <code>Converse</code>.</p>
     pub output: ::std::option::Option<crate::types::ConverseOutput>,

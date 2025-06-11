@@ -43,6 +43,7 @@
     ::serde::Deserialize,
     ::serde::Serialize,
 )]
+#[serde(rename_all = "camelCase")]
 pub enum ConversationRole {
     #[allow(missing_docs)] // documentation missing in model
     Assistant,
